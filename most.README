@@ -1,0 +1,64 @@
+<PKG>
+------------------------------------------
+Pager program similar to more and less.
+
+Most is a paging program that displays, one windowful at a time, the
+contents of a file on a terminal. A status line at the bottom of the
+screen displays the file name, the current line number and the
+percentage of the file so far displayed. Unlike other paging programs,
+most is capable of displaying an arbitrary number of windows as long
+as they all fit on the screen, and different windows could be used to
+view the same file in different positions. In addition to displaying
+ordinary text files, most can also display binary files as well as
+files with arbitrary ascii characters.
+
+Build requirements:
+  cygwin-1.5.x or newer
+  libslang
+
+Canonical homepage:
+  http://packages.debian.org/unstable/text/most
+  http://space.mit.edu/~davis/index.html
+
+Canonical download:
+  See above
+
+Upstream contact:
+  Author: John E. Davis <davis@space.mit.edu>
+  Bugs: John E. Davis <davis@space.mit.edu>
+
+------------------------------------
+
+Build instructions:
+  You may need cygbuild.sourceforge.net to build *src.tar.bz2 archive
+  unpack <PKG>-<VER>-<REL>-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./<PKG>*.sh all
+
+This will create:
+  /usr/src/<PKG>-<VER>-<REL>.tar.bz2
+  /usr/src/<PKG>-<VER>-<REL>-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+  /usr/bin/...
+  /usr/doc/<PKG>-<VER>/AUTHORS
+  /usr/doc/<PKG>-<VER>/...
+  /usr/doc/Cygwin/<PKG>-<VER>.README
+  /usr/man/man1/...
+  /etc/postinstall/<PKG>.sh
+
+------------------
+
+Port Notes:
+
+----- version <VER>-<REL> -----
+- Initial release
+- This port is based on Debian source
+
+Cygwin port maintained by: <Your Name Here>  <Your email here>
+
