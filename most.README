@@ -3,15 +3,16 @@ most
 
 Pager program similar to more and less
 
-Most is a paging program that displays, one windowful at a time, the
-contents of a file on a terminal. A status line at the bottom of the
-screen displays the file name, the current line number and the
-percentage of the file so far displayed. Unlike other paging programs,
-most is capable of displaying an arbitrary number of windows as long
-as they all fit on the screen, and different windows could be used to
-view the same file in different positions. In addition to displaying
-ordinary text files, most can also display binary files as well as
-files with arbitrary ascii characters.
+A paging program that displays, one windowful at a time, the contents
+of a file on a terminal. Unlike other well-known paging programs most
+supports multiple windows and can scroll left and right. A status line
+at the bottom of the screen displays the file name, the current line
+number and the percentage of the file so far displayed. Unlike other
+paging programs, most is capable of displaying an arbitrary number of
+windows as long as they all fit on the screen, and different windows
+could be used to view the same file in different positions. In
+addition to displaying ordinary text files, most can also display
+binary files as well as files with arbitrary ascii characters.
 
 Runtime requirements:
   libslang2
@@ -20,6 +21,7 @@ Build requirements:
   libslang-devel
 
 Canonical homepage:
+  http://freecode.com/projects/most
   http://space.mit.edu/~davis/index.html
   http://packages.debian.org/unstable/text/most
 
