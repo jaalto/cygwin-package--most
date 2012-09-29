@@ -1,4 +1,4 @@
-sdesc: "Pager program similar to more and less."
+sdesc: "Pager program similar to more and less"
 ldesc: "Most is a paging program that displays, one windowful at a time, the
 contents of a file on a terminal. A status line at the bottom of the
 screen displays the file name, the current line number and the
@@ -9,4 +9,4 @@ view the same file in different positions. In addition to displaying
 ordinary text files, most can also display binary files as well as
 files with arbitrary ascii characters."
 category: Text Utils
-requires: cygwin
+requires: libslang2
