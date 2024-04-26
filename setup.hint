@@ -11,3 +11,4 @@ addition to displaying ordinary text files, most can also display
 binary files as well as files with arbitrary ascii characters."
 category: Text Utils
 requires: libslang2
+license: GPL-2+
