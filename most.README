@@ -21,12 +21,12 @@ Build requirements:
   libslang-devel
 
 Canonical homepage:
-  http://freecode.com/projects/most
+  https://www.jedsoft.org/most/
   http://space.mit.edu/~davis/index.html
   http://packages.debian.org/unstable/text/most
 
 Canonical download:
-  ftp://space.mit.edu/pub/davis/most
+  https://github.com/jedsoft/most
 
 Version control repository:
 
@@ -37,8 +37,8 @@ Forum / Wiki:
 IRC channel:
 
 Upstream contact:
-  Author: John E. Davis <davis@space.mit.edu>
-  Bugs: John E. Davis <davis@space.mit.edu>
+  Author: John E. Davis <jed@jedsoft.org> (old <davis@space.mit.edu>)
+  Bugs: John E. Davis <jed@jedsoft.org>
 
 ------------------------------------
 
